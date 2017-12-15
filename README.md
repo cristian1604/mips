@@ -13,6 +13,8 @@ This project has been tested on a [Digilent Basys 2][digilent] [FPGA]
 * [Xilinx] - FPGA design solution to synthesis and simulation
 * [MARS] - **M**IPS **A**ssembler and **R**untime **S**imulator
 
+### Diagram
+![Block diagram](https://github.com/cristian1604/mips/blob/master/img/mips.png)
 
 ### Bibliography
   - Digital Design and Computer Architecture - David Money Harris & Sarah L. Harris (2007 Elsiever)
