@@ -18,11 +18,11 @@ If you are FICH student, then [read this][fich]
 * [MARS] - **M**IPS **A**ssembler and **R**untime **S**imulator
 
 ### Block Diagram
-![Block diagram](http://github.com/cristian1604/mips/blob/master/img/mips.png)
+![Block diagram](https://github.com/cristian1604/mips/blob/master/img/mips.png)
 
 **As a component:**
 
-![Block diagram](http://github.com/cristian1604/mips/blob/master/img/mips_rtl.png)
+![Block diagram](https://github.com/cristian1604/mips/blob/master/img/mips_rtl.png)
 
 References:
 
@@ -79,15 +79,18 @@ x"22",x"10",x"00",x"01",
 x"08",x"00",x"00",x"04",
 ```
 
-**WARNING!** If you use MARS software, watch out all the *jump* instructions. The software **always** export the line like
+**NOTE!** If you use MARS software, watch out all the *jump* instructions. The software **always** export the line like
 `x"08",x"10"` when the second tuple **MUST** be `x"00"`.
 So, always replace in the text `x"08",x"10"` by `x"08",x"00"`.
 Otherwise the jump on this MIPS implementation will don't work.
+
+Another notice: The `Data Memory` module is not implemented with the rest of the microarchitecture. Why? Because I prefer to implement it as another module outside. This is the reason of `address`, `readdata`, `writedata` and `memwrite` ports.
 
 
 ### Bibliography
   - *Digital Design and Computer Architecture* - David Money Harris & Sarah L. Harris (2007 Elsiever)
   - *Computer Organization and Design - David A. Patterson & John L. Hennessy* (2012 Morgan Kauffman)
+
 
 About
 ----
