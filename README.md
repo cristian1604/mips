@@ -5,10 +5,12 @@ An implementation of a single cycle MIPS processor.
 
 This project has been tested on a [Digilent Basys 2][digilent] [FPGA]
 
+If you are FICH student, then [read this][fich]
+
 ### Changelog
 
-  - Improve example in the README.md
-  - Translate to english part of the VHDL code
+  - Added note to FICH students
+  - Minor improvements
 
 ### Software
 
@@ -16,10 +18,11 @@ This project has been tested on a [Digilent Basys 2][digilent] [FPGA]
 * [MARS] - **M**IPS **A**ssembler and **R**untime **S**imulator
 
 ### Block Diagram
-![Block diagram](https://github.com/cristian1604/mips/blob/master/img/mips.png)
+![Block diagram](http://github.com/cristian1604/mips/blob/master/img/mips.png)
 
+**As a component:**
 
-![Block diagram](https://github.com/cristian1604/mips/blob/master/img/mips_rtl.png)
+![Block diagram](http://github.com/cristian1604/mips/blob/master/img/mips_rtl.png)
 
 References:
 
@@ -42,7 +45,7 @@ So, the instruction
 
 I strongly recommend to use [MARS] software to export your code in hexadecimal format.
 
-Remember: The Instruction Memory is an array with 512 elements. Each instruction is composed by four tuples hexadecimals. So the maximum number of instructions allowed is: `512/4 = 128 instructions`. You can modify this value according to the size of the FPGA memory.
+Remember: The Instruction Memory is an array with 512 elements. Each instruction is composed by four hexadecimal tuples. So the maximum number of instructions allowed is: `512/4 = 128 instructions`. You can modify this value according to the size of the FPGA memory.
 
 ### Example
 
@@ -90,6 +93,8 @@ About
 ----
 Developed by Cristian Bottazzi  `cbottazzi @ ful.unl.edu.ar`
 
+If you are FICH student, then [read this][fich]
+
 Computer Organization - Computer Engineering
 
 Facultad de Ingeniería y Ciencias Hídricas - Universidad Nacional del Litoral
@@ -102,3 +107,4 @@ Facultad de Ingeniería y Ciencias Hídricas - Universidad Nacional del Litoral
    [fpga]: <https://en.wikipedia.org/wiki/Field-programmable_gate_array>
    [xilinx]: <https://www.xilinx.com/products/design-tools/ise-design-suite/ise-webpack.html>
    [mars]: <http://courses.missouristate.edu/kenvollmar/mars/>
+   [fich]: <http://github.com/cristian1604/mips/blob/master/img/FICH_note.md>
