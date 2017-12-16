@@ -13,7 +13,7 @@ If you are a FICH student, then [read this][fich]
 
 ### Software
 
-* [Xilinx] - FPGA design solution to synthesis and simulation
+* [Xilinx ISE Project Navigator][Xilinx] - FPGA design solution to synthesis and simulation
 * [MARS] - **M**IPS **A**ssembler and **R**untime **S**imulator
 
 ### Block Diagram
@@ -83,7 +83,7 @@ x"08",x"00",x"00",x"04",
 So, always replace in the text `x"08",x"10"` by `x"08",x"00"`.
 Otherwise the jump on this MIPS implementation will don't work.
 
-Another notice: The `Data Memory` module is not implemented with the rest of the microarchitecture. Why? Because I prefer to implement it as another module outside. This is the reason of `address`, `readdata`, `writedata` and `memwrite` ports.
+Another notice: The `Data Memory` module is not implemented here with the rest of the microarchitecture. This is because I prefer to implement it as another module outside the processor (as a memory block, FIFO buffer, UART or another component). This is the reason of `address`, `readdata`, `writedata` and `memwrite` ports.
 
 
 ### Bibliography

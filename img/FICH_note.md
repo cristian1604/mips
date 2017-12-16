@@ -4,7 +4,7 @@ Este fue un proyecto realizado para la materia *Organización de las Computadora
 Se trata de un procesador de ciclo simple completamente funcional implementado en VHDL.
 La descripción se encuentra totalmente documentada en [README.md]
 
-Lo ideal antes de copiar echar a funcionar es analizar cada uno de los componentes y ver cómo funciona.
+Lo ideal antes de copiar y echar a funcionar es analizar cada uno de los componentes y ver cómo funciona.
 
 ### Consejos
   - Lee bien la bibliografía
@@ -14,15 +14,15 @@ Lo ideal antes de copiar echar a funcionar es analizar cada uno de los component
 
 ### Preguntas
   - **¿Nos explicas el funcionamiento del MIPS?**
-
 No. En la bibliografía está muy bien descripto el funcionamiento del procesador.
 
   - **¿Podés pasar al español la documentación?**
-
 No. Ya tenés el MIPS implementado. Lee cómo funciona.
 
-  - **¿Puedo presentar este MIPS en la práctica de la materia?**
+  - **¿Por qué no hay Test Bench?**
+Sí los hay, pero no los subí. Si los necesitás, implementá los tuyos.
 
+  - **¿Puedo presentar este MIPS en la práctica de la materia?**
 No deberías. La razón por la cual está disponible en GitHub es para que compruebes el funcionamiento de tu MIPS con este.
 Particularmente hemos tenido la mala fortuna de haber implementado la `Unidad de Control` con algún error interno que nos obligó a rehacer el procesador por completo. Esto nos tomó mucho tiempo, pero le sacamos mucho provecho.
 
