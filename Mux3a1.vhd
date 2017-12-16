@@ -1,20 +1,11 @@
 ----------------------------------------------------------------------------------
 -- Company: 
--- Engineer: 
+-- Engineer:  Bottazzi, Cristian
 -- 
 -- Create Date:    18:34:29 11/19/2017 
 -- Design Name: 
 -- Module Name:    Mux3a1 - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
---
--- Dependencies: 
---
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
+-- Project Name: Single Cycle MIPS Proceesor
 --
 ----------------------------------------------------------------------------------
 library IEEE;
@@ -23,6 +14,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
 --use IEEE.NUMERIC_STD.ALL;
+-- Bottazzi, Cristian - 2017 (https://github.com/cristian1604/)
 
 -- Uncomment the following library declaration if instantiating
 -- any Xilinx primitives in this code.

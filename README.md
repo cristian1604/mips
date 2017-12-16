@@ -7,8 +7,8 @@ This project has been tested on a [Digilent Basys 2][digilent] [FPGA]
 
 ### Changelog
 
-  - Uploaded port map
-  - Use and example in the README.md
+  - Improve example in the README.md
+  - Translate to english part of the VHDL code
 
 ### Software
 
@@ -40,7 +40,9 @@ So, the instruction
 
 `x"20",x"11",x"00",x"06",`.
 
-I strongly reccomend use [MARS] software to export your code in hexadecimal format.
+I strongly recommend to use [MARS] software to export your code in hexadecimal format.
+
+Remember: The Instruction Memory is an array with 512 elements. Each instruction is composed by four tuples hexadecimals. So the maximum number of instructions allowed is: `512/4 = 128 instructions`. You can modify this value according to the size of the FPGA memory.
 
 ### Example
 
@@ -75,9 +77,9 @@ x"08",x"00",x"00",x"04",
 ```
 
 **WARNING!** If you use MARS software, watch out all the *jump* instructions. The software **always** export the line like
-`x"08",x"10"` when the second tuple **MUST** be `x"00"`. Like this: `x"08",x"00"`.
+`x"08",x"10"` when the second tuple **MUST** be `x"00"`.
 So, always replace in the text `x"08",x"10"` by `x"08",x"00"`.
-Otherwise the jump on the MIPS implementation will don't work.
+Otherwise the jump on this MIPS implementation will don't work.
 
 
 ### Bibliography

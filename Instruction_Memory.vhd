@@ -1,3 +1,5 @@
+-- Bottazzi, Cristian - 2017 (https://github.com/cristian1604/)
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use ieee.std_logic_arith.all;

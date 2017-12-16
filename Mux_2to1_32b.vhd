@@ -2,8 +2,9 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 -- Uncomment the following library declaration if using
--- Bottazzi, Ferrer ------------
+-- Bottazzi, Ferrer
 --use IEEE.NUMERIC_STD.ALL;
+-- Bottazzi, Cristian - 2017 (https://github.com/cristian1604/)
 
 -- Uncomment the following library declaration if instantiating
 -- any Xilinx primitives in this code.
