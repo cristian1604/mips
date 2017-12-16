@@ -8,8 +8,7 @@ If you are a FICH student, then [read this][fich]
 
 ### Changelog
 
-  - Added note to FICH students
-  - Minor improvements
+  - Added missing modules
 
 ### Software
 
