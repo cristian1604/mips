@@ -8,7 +8,7 @@ If you are a FICH student, then [read this][fich]
 
 ### Changelog
 
-  - Added missing modules
+  - Linked to the repo with the [complete project][EmbeddedMips]
 
 ### Software
 
@@ -84,6 +84,8 @@ Otherwise the jump on this MIPS implementation will don't work.
 
 Another notice: The `Data Memory` module is not implemented here with the rest of the microarchitecture. This is because I prefer to implement it as another module outside the processor (as a memory block, FIFO buffer, UART or another component). This is the reason of `address`, `readdata`, `writedata` and `memwrite` ports.
 
+* [See this repository to use this MIPS and connect it with your PC][EmbeddedMips] to solve arithmetic operations!
+
 
 ### Bibliography
   - *Digital Design and Computer Architecture* - David Money Harris & Sarah L. Harris (2007 Elsiever)
@@ -109,3 +111,4 @@ Facultad de Ingeniería y Ciencias Hídricas - Universidad Nacional del Litoral
    [xilinx]: <https://www.xilinx.com/products/design-tools/ise-design-suite/ise-webpack.html>
    [mars]: <http://courses.missouristate.edu/kenvollmar/mars/>
    [fich]: <http://github.com/cristian1604/mips/blob/master/img/FICH_note.md>
+   [EmbeddedMips]: <https://github.com/cristian1604/EmbeddedMips>
