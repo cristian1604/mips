@@ -1,7 +1,7 @@
-# FICH
+# Nota para estudiantes de FICH
 Este fue un proyecto realizado para la materia *Organización de las Computadoras*.
 
-Se trata de un procesador de ciclo simple completamente funcional.
+Se trata de un procesador de ciclo simple completamente funcional implementado en VHDL.
 La descripción se encuentra totalmente documentada en [README.md]
 
 Lo ideal antes de copiar echar a funcionar es analizar cada uno de los componentes y ver cómo funciona.
@@ -31,6 +31,9 @@ La idea es que no pierdas tiempo reimplementando. Invertí ese tiempo entendiend
   - **¿Puedo colaborar con este proyecto?**
 Claro que sí. Puedes hacer un *pull request* o proponer cambios en este mismo repositorio.
 
+  - **¿Puedo hacerte alguna consulta?**
+Claro. Escribime a `cbottazzi @ ful.unl.edu.ar`. Puedo demorar en responder, o incluso no responder si lo solicitado va en contra de algunas de las cosas explicadas aquí o en la [documentación][README.md].
+
 
 ### Gracias
   - Pablo Camusso
@@ -38,4 +41,4 @@ Claro que sí. Puedes hacer un *pull request* o proponer cambios en este mismo r
   - Jeremias Lagorio
 
 
-[README.md]: <https://github.com/cristian1604/mips/blob/master/README.md>
+[README.md]: <https://github.com/cristian1604/mips>

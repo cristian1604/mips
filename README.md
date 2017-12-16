@@ -2,10 +2,9 @@
 VHDL implementation of Single-Cycle 32-bits MIPS Processor
 
 An implementation of a single cycle MIPS processor.
-
 This project has been tested on a [Digilent Basys 2][digilent] [FPGA]
 
-If you are FICH student, then [read this][fich]
+If you are a FICH student, then [read this][fich]
 
 ### Changelog
 
@@ -96,7 +95,7 @@ About
 ----
 Developed by Cristian Bottazzi  `cbottazzi @ ful.unl.edu.ar`
 
-If you are FICH student, then [read this][fich]
+If you are a FICH student, then [read this][fich]
 
 Computer Organization - Computer Engineering
 
